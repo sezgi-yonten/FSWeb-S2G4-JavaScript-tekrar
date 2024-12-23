@@ -35,7 +35,11 @@ const sayilar = [
 	3. Hesaplanan alanı döndürecek
 */
 
+<<<<<<< HEAD
 // Örneğin çözümü:
+=======
+//Örneğin çözümü:
+>>>>>>> c0f1e778f2e06d01201e5d276720b2354fd857e0
 function KareninAlani(kenaruzunlugu) {
   return kenaruzunlugu * kenaruzunlugu;
 }
@@ -51,10 +55,16 @@ console.log(KareninAlani(10)); // Çıktı: 100
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
 
+<<<<<<< HEAD
 function CemberinCevresi(yaricap) {
   return 2 * pi * yaricap;
 }
 console.log(CemberinCevresi(5)); // Çıktı: 31.4159
+=======
+function CemberinCevresi(/* kodlar buraya */) {
+  /* kodlar buraya */
+}
+>>>>>>> c0f1e778f2e06d01201e5d276720b2354fd857e0
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
@@ -66,10 +76,16 @@ console.log(CemberinCevresi(5)); // Çıktı: 31.4159
 	4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
+<<<<<<< HEAD
 function CemberinAlani(yaricap) {
   return pi * Math.pow(yaricap, 2);
 }
 console.log(CemberinAlani(15)); // Çıktı: 706.85775
+=======
+function CemberinAlani(/* kodlar buraya */) {
+  /* kodlar buraya */
+}
+>>>>>>> c0f1e778f2e06d01201e5d276720b2354fd857e0
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
@@ -90,6 +106,11 @@ console.log(CemberinAlani(15)); // Çıktı: 706.85775
 		💡 İPUCU: Tekrar edilen sayıları ve kaç kere tekrar edildiğini kaydetmek için bir nesne tanımlamalısınız, bu görevi yapabilmek için en az 2 kere döngü yazmalısınız. Birinci döngüde hangi sayının kaç kere tekrar edildiğini tespit edip, 2. döngüde stringi oluşturup verilen diziye aktarmalısınız.
 */
 
+<<<<<<< HEAD
+=======
+/*  (oto test yok) sayilar dizisi içinde kaç adet sayı olduğunu konsola yazdırın */
+
+>>>>>>> c0f1e778f2e06d01201e5d276720b2354fd857e0
 let ucetambolunenler,
   enkucuk,
   enbuyuk,
@@ -99,6 +120,7 @@ let ucetambolunenler,
   tekraredensayilar;
 
 // 3a çözümü
+<<<<<<< HEAD
 enkucuk = sayilar[0];
 enbuyuk = sayilar[0];
 for (let sayi of sayilar) {
@@ -145,6 +167,30 @@ console.log("Tekrar eden sayılar:", tekraredensayilar);
 
 // Sayılar dizisindeki toplam sayı adedi
 console.log("Toplam sayı adedi:", sayilar.length); // Çıktı: 569
+=======
+
+/* kodlar buraya */
+
+// 3b çözümü:
+
+/* kodlar buraya */
+
+// 3c çözümü:
+
+/* kodlar buraya */
+
+// 3d çözümü
+
+/* kodlar buraya */
+
+// 3e çözümü
+
+/* kodlar buraya */
+
+// 3f çözümü
+
+/* kodlar buraya */
+>>>>>>> c0f1e778f2e06d01201e5d276720b2354fd857e0
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
